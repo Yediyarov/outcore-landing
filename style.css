@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'suisse_intlregular';
+    src: url('suisseintl-regular-webfont.woff2') format('woff2'),
+         url('suisseintl-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    height: 100vh;
+    background-color: #050B32;
+}
+
+.nav{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 47px;
+    left: 40px;
+}
+
+.contact-section{
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.email-block{
+    text-align: right;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.social-block{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-link{
+    color: #BBE8FB;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: "suisse_intlregular";
+}
+
+.social-round{
+    width: 120px;
+    height: 120px;
+    background-color: #235EE7;
+    border-radius: 50%;
+    position: relative;
+}
+.social-icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.social-accounts{
+    display: flex;
+}
+
+.mr-24{
+    margin-right: 24px;
+}
+
+.line{
+    height: 1px;
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.follow-us-block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.follow-us-text{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "suisse_intlregular";  
+}
+
+.follow-us-dot{
+    width: 8px;
+    height: 8px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
