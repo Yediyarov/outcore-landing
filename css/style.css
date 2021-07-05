@@ -51,6 +51,12 @@ body {
     left: 40px;
 }
 
+.logo-3d{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
 .contact-section {
     display: flex;
     justify-content: space-between;
@@ -90,12 +96,22 @@ body {
     line-height: 24px;
 }
 
+.email-link:hover {
+    opacity: 0.8;
+}
+
 .social-round {
     width: 120px;
     height: 120px;
     background-color: #235EE7;
     border-radius: 50%;
     position: relative;
+    transition: 0.3s;
+}
+
+.social-round:hover {
+    width: 104px;
+    height: 104px;
 }
 
 .social-icon {
@@ -108,6 +124,7 @@ body {
 .social-accounts {
     display: flex;
     position: relative;
+    align-items: center;
 }
 
 .ig {
@@ -214,13 +231,75 @@ body {
     width: 100%;
     background-color: #235EE7;
 }
+.agency-info{
+    position: absolute;
+    top: 312px;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.slogan-block{
+    white-space: nowrap;
+}
+.slogan-block > div{
+    display: flex;
+    -webkit-animation: scrollText 15s infinite linear;
+          animation: scrollText 15s infinite linear;
+}
+.slogan-text{
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 56px;
+    font-family: "suisse_intlregular";
+}
+.desc-text{
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "suisse_intlregular";
+}
+.agency-desc{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 13.4%;
+}
+
+.desc-container{
+    
+}
+.desc-dot{
+   
+}
+
+.desc-text-container{
+   
+}
+
+@-webkit-keyframes scrollText {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes scrollText {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
 
 @media screen and (max-width: 767px) {
     .logo {
         top: 32px;
         left: 20px;
     }
-
+    .logo-3d{
+        display: none;
+    }
     .contact-section {
         flex-direction: column;
         bottom: 32px;
