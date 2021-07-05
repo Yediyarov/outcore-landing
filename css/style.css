@@ -6,6 +6,15 @@
     font-style: normal;
 }
 
+@import url("//db.onlinewebfonts.com/c/03d5b20d124cd26dc873bd4a8e42313e?family=Suisse+Int'l");
+
+
+@font-face {
+    font-family: "Suisse Int'l";
+    src: url("//db.onlinewebfonts.com/t/03d5b20d124cd26dc873bd4a8e42313e.eot");
+    src: url("//db.onlinewebfonts.com/t/03d5b20d124cd26dc873bd4a8e42313e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/03d5b20d124cd26dc873bd4a8e42313e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/03d5b20d124cd26dc873bd4a8e42313e.woff") format("woff"), url("//db.onlinewebfonts.com/t/03d5b20d124cd26dc873bd4a8e42313e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/03d5b20d124cd26dc873bd4a8e42313e.svg#Suisse Int'l") format("svg");
+}
+
 @keyframes animatebottom {
     from {
         bottom: -20px;
@@ -51,7 +60,7 @@ body {
     left: 40px;
 }
 
-.logo-3d{
+.logo-3d {
     position: absolute;
     top: 40px;
     right: 40px;
@@ -231,75 +240,87 @@ body {
     width: 100%;
     background-color: #235EE7;
 }
-.agency-info{
+
+.agency-info {
     position: absolute;
     top: 312px;
     left: 0;
     overflow: hidden;
     width: 100%;
 }
-.slogan-block{
+
+.slogan-block {
     white-space: nowrap;
 }
-.slogan-block > div{
+
+.slogan-block>div {
     display: flex;
-    -webkit-animation: scrollText 15s infinite linear;
-          animation: scrollText 15s infinite linear;
+    -webkit-animation: scrollText 11s infinite linear;
+    animation: scrollText 11s infinite linear;
 }
-.slogan-text{
+
+.slogan-text {
     color: #FFFFFF;
     font-size: 60px;
     line-height: 56px;
     font-family: "suisse_intlregular";
 }
-.desc-text{
-    color:#FFFFFF;
+
+.desc-text {
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 18px;
-    font-family: "suisse_intlregular";
+    font-family: "Suisse Int'l";
 }
-.agency-desc{
+
+.agency-desc {
     margin-top: 40px;
     margin-left: 40px;
-    width: 13.4%;
 }
 
-.desc-container{
-    
-}
-.desc-dot{
-   
+.desc-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
 }
 
-.desc-text-container{
-   
+.desc-dot {
+    font-size: 8px;
+    color: #FFFFFF;
+    vertical-align: middle;
+    padding-bottom: 5px;
 }
 
 @-webkit-keyframes scrollText {
     from {
-      transform: translateX(0%);
+        transform: translateX(0%);
     }
+
     to {
-      transform: translateX(-50%);
+        transform: translateX(-50%);
     }
-  }
-  @keyframes scrollText {
+}
+
+@keyframes scrollText {
     from {
-      transform: translateX(0%);
+        transform: translateX(0%);
     }
+
     to {
-      transform: translateX(-50%);
+        transform: translateX(-50%);
     }
-  }
+}
 
 @media screen and (max-width: 767px) {
     .logo {
         top: 32px;
         left: 20px;
     }
-    .logo-3d{
+
+    .logo-3d {
         display: none;
     }
+
     .contact-section {
         flex-direction: column;
         bottom: 32px;
