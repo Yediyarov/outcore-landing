@@ -20,7 +20,7 @@
 
 @keyframes curtain-animation {
     100% {
-        width: 0%;
+        width: 0vh;
     }
 }
 
@@ -115,7 +115,7 @@ body {
     animation-delay: 0.9s;
     animation-name: animatebottom;
     /* animation-timing-function: ease-out; */
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 
     animation-fill-mode: forwards;
 }
@@ -125,7 +125,7 @@ body {
     animation-delay: 0.8s;
     animation-name: animatebottom;
     /* animation-timing-function: ease-out; */
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 
     animation-fill-mode: forwards;
 }
@@ -135,7 +135,7 @@ body {
     animation-delay: 0.7s;
     animation-name: animatebottom;
     /* animation-timing-function: ease-out; */
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 
     animation-fill-mode: forwards;
 }
@@ -150,7 +150,7 @@ body {
     background-color: #FFFFFF;
     margin-bottom: 40px;
     animation-name: line-animation;
-    animation-duration: 1s;
+    animation-duration: 0.8s;
     animation-delay: 0.6s;
     animation-fill-mode: forwards;
 }
