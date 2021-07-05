@@ -110,8 +110,7 @@ body {
 }
 
 .social-round:hover {
-    width: 104px;
-    height: 104px;
+    transform: scale(0.866, 0.866);
 }
 
 .social-icon {
