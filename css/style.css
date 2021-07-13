@@ -250,6 +250,7 @@ body {
 
 .slogan-block {
     white-space: nowrap;
+    display: flex;
 }
 
 .slogan-block>div {
