@@ -409,4 +409,11 @@ body {
         margin-bottom: 20px;
     }
 
+    .desc-container {
+        width: 60%;
+        display: flex;
+        grid-template-columns: none;
+        grid-gap: none;
+    }
+
 }
