@@ -282,8 +282,8 @@ body {
 
 .slogan-block>div {
     display: flex;
-    /* -webkit-animation: scrollText 10s infinite linear;
-    animation: scrollText 10s infinite linear; */
+    -webkit-animation: scrollText 10s infinite linear;
+    animation: scrollText 10s infinite linear;
 }
 
 .slogan-text {
@@ -354,11 +354,16 @@ body {
     }
 
     .agency-desc{
-        display: none;
+        margin: 24px 20px 0 20px;
     }
     
     .agency-info{
-        display: none;
+        top: 169px;
+    }
+
+    .slogan-text{
+        font-size: 40px;
+        line-height: 48px;
     }
 
     .contact-section {
@@ -383,6 +388,7 @@ body {
     .email-link {
         font-size: 34px;
         line-height: 40px;
+        letter-spacing: 0.01em; 
     }
 
     .social-round {
