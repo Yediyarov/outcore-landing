@@ -81,6 +81,7 @@ body {
 }
 
 .contact-section {
+    /* display: none; */
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -300,6 +301,7 @@ body {
     line-height: 18px;
     letter-spacing: 0.4px;
     font-family: "suisse_intlregular_light";
+    padding-left: 16px;
 }
 
 .agency-desc {
@@ -307,16 +309,19 @@ body {
 }
 
 .desc-container {
-    display: grid;
+    display: flex;
+    width: 16%;
+    /* display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 1rem; */
 }
 
 .desc-dot {
     font-size: 8px;
     color: #BBE8FB;
     vertical-align: middle;
-    padding-bottom: 5px;
+    /* padding-bottom: 4px; */
+    padding-top: 5px;
 }
 
 .highlighted{
@@ -354,7 +359,7 @@ body {
     }
     
     .agency-info{
-        top: 160px;
+        top: 200px;
     }
 
     .slogan-text{
@@ -365,6 +370,7 @@ body {
     .contact-section {
         flex-direction: column;
         bottom: 32px;
+        /* display: none; */
     }
 
     .email-block {
@@ -386,7 +392,7 @@ body {
     }
 
     .email-link {
-        font-size: 34px;
+        font-size: 32px;
         line-height: 40px;
         letter-spacing: 0.01em; 
     }
@@ -410,10 +416,8 @@ body {
     }
 
     .desc-container {
-        width: 60%;
+        width: 65%;
         display: flex;
-        grid-template-columns: none;
-        grid-gap: none;
     }
 
 }
