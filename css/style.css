@@ -135,13 +135,21 @@ body {
     transition: 0.2s;
 }
 
-.social-round:hover {
-    transform: scale(0.866, 0.866);
+.social-round:hover  {
+    margin-left: 8px;
+    margin-right: 32px;
+    width: 104px;
+    height: 104px;
     background-color: #FFFFFF;
 }
 
+.dr:hover {
+    margin-right: 8px;
+}
+
+
 .social-round:hover .social-icon {
-    filter: invert();
+    filter: brightness(0) saturate(100%) invert(5%) sepia(45%) saturate(4380%) hue-rotate(227deg) brightness(97%) contrast(105%);
 }
 
 .social-icon {
@@ -418,6 +426,20 @@ body {
     .desc-container {
         width: 65%;
         display: flex;
+    }
+
+    
+    .social-round:hover  {
+        margin-left: 8px;
+        margin-right: 24px;
+        width: 85px;
+        height: 85px;
+        background-color: #FFFFFF;
+    }
+
+    
+    .dr:hover {
+        margin-right: 8px;
     }
 
 }
