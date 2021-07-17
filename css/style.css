@@ -148,7 +148,7 @@ body {
 
 
 .social-round:hover .social-icon {
-    filter: invert();
+    filter: brightness(0) saturate(100%) invert(5%) sepia(45%) saturate(4380%) hue-rotate(227deg) brightness(97%) contrast(105%);
 }
 
 .social-icon {
