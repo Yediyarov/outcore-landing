@@ -81,8 +81,8 @@ body {
 }
 
 .contact-section {
-    display: none;
-    /* display: flex; */
+    /* display: none; */
+    display: flex;
     justify-content: space-between;
     position: absolute;
     bottom: 0;
@@ -378,7 +378,7 @@ body {
     .contact-section {
         flex-direction: column;
         bottom: 32px;
-        display: none;
+        /* display: none; */
     }
 
     .email-block {
