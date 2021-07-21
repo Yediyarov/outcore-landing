@@ -127,6 +127,7 @@ body {
 }
 
 .social-round {
+    will-change: transform, opacity;
     bottom: -10px;
     width: 120px;
     height: 120px;
@@ -137,8 +138,8 @@ body {
 }
 
 .social-round:hover  {
+    margin-right: 8px;
     margin-left: 8px;
-    margin-right: 32px;
     width: 104px;
     height: 104px;
     background-color: #FFFFFF;
@@ -161,10 +162,12 @@ body {
 }
 
 .social-accounts {
+    width: 408px;;
     height: 120px;
     display: flex;
     position: relative;
     align-items: center;
+    justify-content: space-between;
 }
 
 .ig {
@@ -173,7 +176,6 @@ body {
     animation-name: animatebottom;
     /* animation-timing-function: ease-out; */
     animation-duration: 0.5s;
-
     animation-fill-mode: forwards;
 }
 
@@ -183,7 +185,6 @@ body {
     animation-name: animatebottom;
     /* animation-timing-function: ease-out; */
     animation-duration: 0.5s;
-
     animation-fill-mode: forwards;
 }
 
@@ -193,13 +194,12 @@ body {
     animation-name: animatebottom;
     /* animation-timing-function: ease-out; */
     animation-duration: 0.5s;
-
     animation-fill-mode: forwards;
 }
 
-.right-distance {
+/* .right-distance {
     margin-right: 24px;
-}
+} */
 
 .line {
     width: 0%;
@@ -414,13 +414,11 @@ body {
     }
 
     .social-accounts {
+        width: auto;
         margin-bottom: 32px;
         justify-content: space-between;
     }
 
-    .right-distance {
-        margin-right: 16px;
-    }
 
     .line {
         margin-bottom: 20px;
@@ -433,8 +431,6 @@ body {
 
     
     .social-round:hover  {
-        margin-left: 8px;
-        margin-right: 24px;
         width: 85px;
         height: 85px;
         background-color: #FFFFFF;
