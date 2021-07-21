@@ -105,6 +105,7 @@ body {
 }
 
 .social-block {
+    height: 201px;
     position: absolute;
     bottom: 40px;
     left: 40px;
@@ -160,6 +161,7 @@ body {
 }
 
 .social-accounts {
+    height: 120px;
     display: flex;
     position: relative;
     align-items: center;
@@ -391,6 +393,7 @@ body {
     }
 
     .social-block {
+        height: 201px;
         position: static;
         bottom: 0;
         left: 0;
