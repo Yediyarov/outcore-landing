@@ -232,7 +232,7 @@ body {
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
-    font-family: "suisse_intlregular_light";
+    font-family: "suisse_intlregular";
 }
 
 .follow-us-dot {
@@ -317,7 +317,7 @@ body {
     font-size: 16px;
     line-height: 18px;
     letter-spacing: 0.4px;
-    font-family: "suisse_intlregular_light";
+    font-family: "suisse_intlregular";
     padding-left: 16px;
 }
 
@@ -365,6 +365,7 @@ body {
     }
 }
 
+/* iphone 5 */
 @media screen and (max-width: 320px) {
 
     .follow-us-text{
@@ -472,6 +473,7 @@ body {
     }
 }
 
+/* iphone X */
 @media screen and (min-width: 321px) and (max-width: 413px) {
     .logo {
         top: 32px;
@@ -565,7 +567,7 @@ body {
     }
 
 }
-
+/* Iphone 11 */
 @media only screen and (min-width: 414px) and (max-width: 480px) { 
         .social-round {
             width: 114px;
@@ -586,7 +588,7 @@ body {
         }
         
         .agency-info{
-            top: 160px;
+            top: 200px;
         }
     
         .slogan-text{
@@ -656,7 +658,7 @@ body {
         }
     }
 
-
+/* planset */
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .logo > img{
         width: 172px;
@@ -693,4 +695,19 @@ body {
     .desc-text{
         padding-left: 24px;
     }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px){
+    .logo > img{
+        width: 194px;
+        height: 36px;       
+    }
+    .logo{
+        top: 48px;
+        left: 48px;
+    }
+}
+
+@media only screen and (min-width: 1921px){
+    
 }
