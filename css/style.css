@@ -398,6 +398,7 @@ body {
     .desc-text{
         font-size: 14px;
         line-height: 16px;
+        padding-left: 24px;
     }
 
     .contact-section {
@@ -448,7 +449,7 @@ body {
     }
 
     .desc-container {
-        width: 92%;
+        width: 95%;
         display: flex;
     }
 
@@ -471,7 +472,7 @@ body {
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 321px) and (max-width: 413px) {
     .logo {
         top: 32px;
         left: 20px;
@@ -480,6 +481,10 @@ body {
     .logo > img{
         width: 129px;
         height: 24px;
+    }
+
+    .desc-text{
+        padding-left: 24px;
     }
 
     .agency-desc{
@@ -561,6 +566,97 @@ body {
 
 }
 
+@media only screen and (min-width: 414px) and (max-width: 480px) { 
+        .social-round {
+            width: 114px;
+            height: 114px;
+        }
+        .logo {
+            top: 32px;
+            left: 20px;
+        }
+    
+        .logo > img{
+            width: 129px;
+            height: 24px;
+        }
+    
+        .agency-desc{
+            margin: 24px 20px 0 20px;
+        }
+        
+        .agency-info{
+            top: 160px;
+        }
+    
+        .slogan-text{
+            font-size: 40px;
+            line-height: 48px;
+        }
+    
+        .contact-section {
+            flex-direction: column;
+            bottom: 32px;
+            /* display: none; */
+        }
+    
+        .email-block {
+            text-align: center;
+            margin-left: 20px;
+            margin-right: 20px;
+            position: static;
+            right: 0;
+            bottom: 0;
+        }
+    
+        .social-block {
+            height: 204px;
+            position: static;
+            bottom: 0;
+            left: 0;
+            /* margin: 0 auto; */
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    
+        .email-link {
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: 0.01em; 
+        }
+    
+        .social-accounts {
+            width: auto;
+            height: 111px;
+            margin-bottom: 32px;
+            justify-content: space-between;
+        }
+    
+        .line {
+            margin-bottom: 20px;
+        }
+    
+        .desc-text{
+            padding-left: 24px;
+        }
+
+        .desc-container {
+            width: 90%;
+            display: flex;
+        }
+    
+        .social-round:hover  {
+            width: 85px;
+            height: 85px;
+            background-color: #FFFFFF;
+        }
+    
+        .dr:hover {
+            margin-right: 8px;
+        }
+    }
+
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .logo > img{
         width: 172px;
@@ -592,5 +688,9 @@ body {
     }
     .social-block{
         height: 185px;
+    }
+
+    .desc-text{
+        padding-left: 24px;
     }
 }
