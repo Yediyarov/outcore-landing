@@ -707,4 +707,56 @@ body {
         top: 48px;
         left: 48px;
     }
+    .agency-info{
+        top: 280px;
+    }
+    .slogan-text{
+        font-size: 80px;
+        line-height: 76px;
+    }
+    .agency-desc{
+        margin: 48px 48px 0 48px;
+    }
+    .desc-text{
+        font-size: 18px;
+        line-height: 20px;
+        padding-left: 32px;
+    }
+    .desc-container{
+        width: 20%;
+    }
+    .follow-us-text{
+        font-size: 18px;
+    }
+    .follow-us-block{
+        margin-bottom: 24px;
+    }
+    .social-block{
+        height: 281px;
+        bottom: 48px;
+        left: 48px;
+    }
+    .social-round{
+        width: 184px;
+        height: 184px;
+    }
+    .social-accounts{
+        width: 621px;
+        height: 184px;
+    }
+    .line{
+        margin-bottom: 48px;
+    }
+    .social-icon{
+        width: 24px;
+        height: 24px;
+    }
+    .email-link{
+        font-size: 44px;
+        line-height: 33px;
+    }
+    .email-block{
+        right: 48px;
+        bottom: 48px;
+    }
 }
